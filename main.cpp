@@ -1,34 +1,31 @@
 #include <iostream>
+#include <utility>
+#include "Faculty.h"
 using namespace std;
 
-class Faculty{
-public:
-    string name;
-    string id;
-    string address;
-    string DoB;
-    string degree;
-//getter and setter for salary
-    double getSalary() {return salary;}
-    void setSalary(double salary);
-/* 1) create a getter and setter for each variable in the class*/
-
-
-private:
-    double salary;
-    double SSN;
-};
-
-void Faculty::setSalary(double s){
-    salary=s;
-}
-
-/* 2) implement each setter and getter */
-
 int main() {
+    /*
     Faculty prof;
+    prof.setName("Dr. Alqahtani");
+    prof.setID("241");
+    prof.setAddress("1834 Wake Forest Road");
+    prof.setDoB("01/01/1990");
+    prof.setDegree("PhD in Computer Science");
+    prof.setSalary(50000);
+    prof.setSSN(123456);
 
-/* 3) use the implemented methods to fill prof' info and print them out */
+    cout << prof.getName() << endl;
+    cout << prof.getID() << endl;
+    cout << prof.getAddress() << endl;
+    cout << prof.getDoB() << endl;
+    cout << prof.getDegree() << endl;
+    cout << prof.getSalary() << endl;
+    cout << prof.getSSN() << endl;
+    */
+
+    Faculty whaples;
+    cout << whaples.getSSN();
+
 
     return 0;
 }

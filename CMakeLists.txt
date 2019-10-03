@@ -3,4 +3,4 @@ project(ClassExcercise)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ClassExcercise main.cpp)
+add_executable(ClassExcercise main.cpp Faculty.h Faculty.cpp)
